@@ -1,11 +1,13 @@
 {
   "scripts": {
+    "build": "gulp build --production --lang=en",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "author": "Florin Bizgan",
   "license": "MIT",
   "devDependencies": {
-    "gh-pages": "^4.0.0"
+    "gh-pages": "^4.0.0",
+    "gulp": "4.0.2"
   }
 }
